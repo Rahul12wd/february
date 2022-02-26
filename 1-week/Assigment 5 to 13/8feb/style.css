@@ -1,0 +1,26 @@
+body{
+    background-color: #FDF9FF;
+      
+}   
+
+.title{
+    color: #29b499;
+    font-size: 2rem;
+    font-family: Poppins,arial,sans-serif;
+    font-weight:  bold;
+    
+}
+
+.container{
+    background: #fff;
+    max-width: 700px;
+    width: 100%;
+    padding: 25px;
+    border-radius: 5px;
+}
+
+.form{
+    font-size: 2rem;
+    font-family: Poppins,arial,sans-serif; font-family: Poppins,arial,sans-serif;
+    font-weight:  bold; 
+}
