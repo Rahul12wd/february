@@ -1,0 +1,122 @@
+/* google font */
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@500&display=swap');
+
+
+body{
+    background-color: #fff8f2;
+    margin: 0;
+    font-family: 'Mukta', sans-serif;
+}
+
+/* navbar css */
+
+span{
+    color: #fa7a05;
+   
+}
+
+.title{
+    margin-left:10%;
+}
+
+h3{
+    font-size: 32px;
+    font-family: 'Mukta', sans-serif;
+    margin: 10px;
+}
+
+nav{
+    width: 100%;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+.nav-items{
+    margin-left: 38%;
+}
+
+li{
+    display: inline-block;
+    list-style: none;
+    margin-left: 30px;
+    
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    cursor: pointer;
+    color: #fa7a05;
+}
+
+button{
+    margin-right: 40px;
+    background: #fa7a05;
+    color: white;
+    padding: 6px 13px;
+    border: 0.5px solid #fff8f2;
+    border-radius: 5px;
+}
+
+button:hover{
+    cursor: pointer;
+    background:#ff993a;
+}
+
+button:active{
+    background: #fff8f2;
+    color: orangered;
+}
+
+/* main content css */
+
+
+.main-content{
+    margin: 8% 0 0 10%;
+    width: 35%;
+    display: inline-block;
+}
+
+
+h4{
+    color: #ff993a;
+    line-height: 10px;
+}
+
+h1{
+    font-size: 4rem;
+    line-height: 1px;
+    margin-bottom: 80px;
+}
+
+p{
+    width: 75%;
+    color: #acacac;
+    margin-bottom: 60px;
+}
+
+.btn-viewmore{
+    background: #fa7a05;
+    color: white;
+    margin-top: 50px;
+    padding: 10px 40px;
+    font-size: 20px;
+    border-radius: 28px;
+    font-family: 'Mukta', sans-serif;
+}
+
+.image{
+    width: 45%;
+    float: right;
+    margin:130px 50px 0 0;
+}
+
+.biryani-img{
+    width: 600px;
+    height: 430px;
+    
+}

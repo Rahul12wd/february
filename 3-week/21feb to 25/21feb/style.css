@@ -1,0 +1,143 @@
+/* body{
+    margin: 0;
+    box-sizing: border-box;
+    text-align: center;
+    background-color: yellow;
+}
+
+ul{
+    list-style: none;
+}
+
+header{
+    background-color: #2c3e50;
+    padding: 0 5rem;
+}
+
+nav{
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu-bar ul {
+    display: inline-flex;
+    list-style: none;
+}
+
+.menu-bar ul li{
+    width: 120px;
+    margin: 8px 30px;
+    padding: 5px;
+}
+
+.menu-bar ul a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.menu-bar ul li:hover {
+    background-color:  #f34949;
+    border-radius: 3px;
+}
+
+/* submenu 1 css */
+/* .submenu-1{
+    display: none;
+    background-color: #2c3e50;
+}
+
+.menu-bar ul li:hover .submenu-1{
+    display: block;
+    position: absolute;
+    margin-top: 15px;
+    margin-bottom: -15px;
+}
+
+.menu-bar ul li:hover .submenu-1 ul{
+    display: block;
+    margin: 10px;
+}
+
+.menu-bar ul li:hover .submenu-1 ul li{
+    width: 150px;
+    padding: 10px;
+    border-bottom: 1px double #fff ;
+}
+
+.menu-bar ul li:hover .submenu-1 ul li :hover{
+    color: black;
+} */ 
+
+
+body{
+    background-color: #d4e0fc;
+    margin: 20px;
+    padding: 0px;
+}
+.application,h4{
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 30px;
+    box-shadow: 8px 8px 3px #abc4ff;
+    background-color: #abc4ff;
+    border: 1px solid #abc4ff;
+    color: white;
+    
+}
+.in{
+    display: inline-block;
+    margin: 20px;
+    padding: 0;
+    width: 300px;
+}
+.no{
+    display: none;
+}
+.trigger2{
+    display: none;
+}
+.trigger1:hover > .trigger2{
+    display: initial;
+}
+.trigger2-1:hover > ul{
+    display: initial;
+}
+.trigger2-2:hover > ul{
+    display: initial;
+}
+.trigger2-3:hover > ul{
+    display: initial;
+}
+.trigger2-4:hover > ul{
+    display: initial;
+}
+.trigger2-5:hover > ul{
+    display: initial;
+}
+.maindiv{
+    text-align: center;
+}
+ul{
+    text-align: left;
+    
+}
+.application:hover,h4:hover{
+    background-color: #abc4ff;
+    border: 1px solid #54BAB9;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 35px;
+    box-shadow: 5px 5px 5px #78a1ff;
+}
+li:hover{
+cursor: pointer;
+color: #abc4ff;
+background-color: white;
+padding-left: 10px ;
+border-radius: 5px;
+font-size: larger;
+}
+

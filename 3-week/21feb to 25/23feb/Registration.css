@@ -1,0 +1,87 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    background-image: url(./pexels-teddy-yang-2263436.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+nav{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    background-color: #ff04abc4;
+}
+
+.logo{
+    font-family: 'Great Vibes', cursive;
+    margin-left: 30px;
+    margin: 18px 0 30px 50px;
+    color: beige;
+}
+
+.items{
+    margin-left: 700px;
+}
+
+a{
+    text-decoration: none;
+    color: beige;
+}
+li{
+    display: inline-block;
+    list-style: none;
+    margin-left: 50px;
+}
+
+.Registration-form{
+    margin: 50px 400px;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.719);
+    border-radius: 10px;
+    max-width:500px;
+    width: 100%;
+}
+
+input{
+    height: 20px;
+    width: 400px;
+    padding: 6px;
+    border: 0.5px solid rgb(197, 197, 197);
+    border-radius: 3px;
+    margin-bottom: 5px;
+}
+
+.input-size{
+    width: 20px;
+    height: 15px;
+    margin:5px 0 0 50px ;
+}
+
+.input-space{
+    margin-left: 50px;
+}
+
+button{
+    width: 400px;
+    margin: 20px 0 0 50px ;
+    padding: 8px;
+    font-size: 15px;
+    border-radius: 5px;
+    border: 0.5px solid rgb(235, 235, 235);
+    background: #D82148;
+}
+
+button:active{
+    cursor: pointer;
+    background: white;
+
+}
+
+p{
+    margin-left: 50px;
+}
+
+.sign{
+    color: #D82148;
+}

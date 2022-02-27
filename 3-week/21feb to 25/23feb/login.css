@@ -1,0 +1,53 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    background-image: url(./pexels-teddy-yang-2263436.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.login{
+    margin: 150px 400px;
+    padding: 25px;
+    background-color: rgb(235, 235, 235);
+    border-radius: 10px;
+    max-width:500px;
+    width: 100%;
+}
+
+input{
+    height: 20px;
+    width: 400px;
+    padding: 6px;
+    border: 0.5px solid rgb(235, 235, 235);
+    border-radius: 3px;
+    margin-bottom: 5px;
+}
+
+.input-space{
+    margin-left: 50px;
+}
+
+a{
+    float: right;
+    font-size: 13px;
+    margin-right: 45px;
+    color: black;
+}
+
+button{
+    width: 350px;
+    margin: 20px 0 0 50px ;
+    padding: 8px;
+    font-size: 15px;
+    border-radius: 5px;
+    border: 0.5px solid rgb(235, 235, 235);
+    background: #2196f3;
+}
+
+button:active{
+    cursor: pointer;
+    background: white;
+
+}
